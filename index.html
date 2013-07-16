@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+        <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		<meta content='app-id=663608621' name='apple-itunes-app' />
+
+		<title>GoodnightCar | Tuck your vehicle into bed with ease</title>
+
+		<script src="./js/jquery-1.8.0.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+
+		<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
+		<link href="./css/bootstrap-responsive.css" rel="stylesheet"></link>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'></link>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'></link>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-41359957-1', 'goodnightcar.com');
+			ga('send', 'pageview');
+
+			/*
+			$(function() {
+				$("#once-we-get-approved").fadeTo(0, 0);
+
+				$("#app-store").click(function() {
+					console.log("HEY");
+					$("#once-we-get-approved").fadeTo('slow', 1.0);
+				});
+			});
+			*/
+		</script>
+
+                <style> 
+			body {
+				background-color: #ffffff;
+				padding: 0px;
+				margin: 0px;
+			}
+
+			.container {
+				padding: 20px;
+			}	
+
+			#city {
+				position: relative;
+			}
+
+                        #city .container {
+				position: relative;
+				z-index: 100;
+                        }
+
+			#citygreen {
+				background-color: rgba(15,37,49,0.9);
+
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 10;
+			}
+
+			#citymap {
+				background-image:url('/images/map.jpg');
+				background-position: center;
+
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 10;
+			}
+	
+			#eyecandy {
+				padding: 0px;
+			}
+
+				#eyecandy h1.hidden-phone {
+					color: #ffffff;
+					margin-top: 50px;
+				}
+
+				#eyecandy h1.visible-phone {
+					color: #ffffff;
+				}
+
+				#eyecandy #blurb {
+					color: #FFFFFF;
+					font-size: 16px;
+					line-height: 1.5em;
+
+					margin-top: 30px;
+				}
+
+				#eyecandy #socials a {
+					padding: 0 10px 0 10px;
+				}
+
+				#eyecandy #once-we-get-approved {
+					color: #FFFFFF;
+					font-size: 14px;
+					line-height: 1.5em;
+
+					margin-top: 10px;
+				}
+
+				#eyecandy #stores {
+					padding: 20px 10px 0 10px;
+				}
+
+			.info {
+			}
+
+				#thescreens h2 {
+					text-align: center;
+				}
+
+				.info h4 {
+					padding: 20px 0 0 0 !important;
+				}
+
+				.info p {
+					padding: 0px 30px 10px 30px;
+				}
+
+                </style>        
+
+        </head>
+
+	<body>
+
+		<div id="city">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div id="eyecandy" class="span6" style="text-align: center;">
+
+						<h1 class="hidden-phone">
+							GoodnightCar
+							<br/>
+							<small>
+								Tuck your vehicle into bed with ease.
+							</small>
+						</h1>
+
+						<h1 class="visible-phone">
+							GoodnightCar
+							<br/>
+							<small>
+								Tuck your vehicle into bed with ease
+							</small>
+						</h1>
+
+						<p id="blurb">
+							GoodnightCar is he best way to register your car with Milwaukee's Night Parking Permission website.
+						</p>
+
+						<p id="socials">
+							<a href="http://www.twitter.com/goodnightcar" target="_blank">
+								<img src="./images/twitter.png" width="30" height="30"/>
+							</a>
+
+							<a href="http://www.facebook.com/goodnightcar" target="_blank">
+								<img src="./images/facebook.png" width="30" height="30"/>
+							</a>
+						</p>
+
+						<p id="stores">
+						
+							<p>	
+								<a id="app-store" href="https://itunes.apple.com/us/app/goodnightcar/id663608621?ls=1&mt=8" target="_blank">
+									<img src="./images/app_store.svg" width="150" />
+								</a>
+
+							</p>
+
+
+						</p>
+
+					</div>
+
+					<div class="span6" style="text-align: center;">
+					
+						<img src="./images/car.png" height="391">		
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<div id="citymap">
+			</div>
+
+			<div id="citygreen">
+			</div>
+
+
+		</div>
+
+		<div id="thescreens" class="container">
+
+			<div class="row">
+
+				<div class="span4 info" style="text-align: center;">
+
+					<h4>Forget the clunky interfaces</h4>
+					<p>
+						<strong>GoodnightCar</strong> is built specifically for today's mobile devices. There is no need to navigate through a website designed for your desktop.
+					</p>
+				</div>
+
+				<div class="span4 info" style="text-align: center;">
+					<h4>Simple tap where you're at</h4>
+					<p>
+						You don't need to know the address where you are parked at. Simply tap on the map and we will tell you the address you are at.
+					</p>
+				</div>
+
+				<div class="span4 info" style="text-align: center;">
+					<h4>We remember your licence plates!</h4>
+					<p>
+						License plates are the dickens to remember. But no worries, we're able to take care of that. Once you type in your license plate we will remember it and present it to you the next time you open the app.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="span4 offset1">
+
+					<h2>The Old Way</h2>
+					<img src="./images/screen_mke_1.png">		
+
+				</div>
+
+				<div class="span4 offset2">
+				
+					<h2>Our way</h2>
+					<img src="./images/screen_app_3.png">		
+
+				</div>
+
+			</div>
+
+			<div class="row">
+				
+				<div class="span12">
+					<hr/>
+				</div>
+		
+			</div>
+
+			<div class="row">
+
+				<div class="span4 offset4" style="text-align: center;">
+
+					<h2>Josh Holtz</h2>
+					<p>
+						Creator/developer of <strong>GoodnightCar</strong> and avid hater of <em>Milwaukee's Night Parking Permission</em> website
+					</p>
+					<p>
+						Creep more on Josh at <a href="http://joshholtz.com" target="_blank">joshholtz.com</a>
+					</p>
+					<p>
+						Want Josh to create something for you?
+						<br/>
+						Check out  <a href="http://rokkincat.com" target="_blank">RokkinCat</a>, a Milwaukee based software consulting company
+					</p>
+					<img src="./images/josh.png">		
+
+				</div>
+
+			</div>
+	
+		</div>
+
+        </body>
+</html>
